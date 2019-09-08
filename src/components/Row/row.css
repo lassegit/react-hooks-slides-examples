@@ -1,0 +1,15 @@
+.row {
+  padding: 20px;
+  background: #eee;
+  color: black;
+}
+
+.label {
+  margin-bottom: 10px;
+  font-size: 75%;
+}
+
+.children {
+  font-size: 125%;
+  font-weight: bold;
+}
