@@ -1,1 +1,1 @@
-Coding example for https://github.com/lassegit/react-hooks-slides
+Coding examples for https://github.com/lassegit/react-hooks-slides
