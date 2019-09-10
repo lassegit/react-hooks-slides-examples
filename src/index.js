@@ -13,8 +13,8 @@ import './main.css';
 const locale = window.navigator.languages[1] || 'en_US';
 
 ReactDOM.render(
-  <LocaleContext.Provider value="dark">
-    <ThemeContext.Provider value={locale}>
+  <LocaleContext.Provider value={locale}>
+    <ThemeContext.Provider value="dark">
       <Router location={window.location.pathname}>
         <Route path="/" component={() => <Greetings name="Mary" />} />
         <Route path="/v1" component={GreetingsV1} />
